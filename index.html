@@ -44,6 +44,14 @@
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 		<!-- open/close -->
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=148627638605067&version=v2.0";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
 		<header>
 			<section class="hero">
 				
@@ -58,7 +66,7 @@
 					</div>
 					<div class="row hero-content">
 						<div class="col-md-12">
-							<h1 class="animated fadeInDown">Trouver sa voiture n'a jamais été aussi <strong style="color: #FA8706">séduisant</strong>. <br>Prépare toi au <strong style="color:#FA8706">coup de foudre</strong>.</h1>
+							<h1 class="animated fadeInDown">Trouver sa voiture n'a jamais été aussi <strong style="color: #FA8706">excitant</strong>. <br>Prépare toi au <strong style="color:#FA8706">coup de foudre</strong>.</h1>
 							<a href="http://tympanus.net/codrops/?p=22554" class="use-btn animated fadeInUp">S'inscrire gratuitement</a> <a href="#about" class="learn-btn animated fadeInUp">En savoir plus <i class="fa fa-arrow-down"></i></a>
 						</div>
 					</div>
@@ -68,12 +76,96 @@
 		<section class="video" id="about">
 			<div class="container">
 				<div class="row">
+					<div class="headline">
+							<h2>MISSION</h2>
+						</div>
 					<div class="col-md-12 text-center">
-						<h1><a href="https://www.youtube.com/watch?v=n9Ty0mb6HNc" class="youtube-media"><i class="fa fa-play-circle-o"></i> Regardez la vidéo</a></h1>
+						<h1>Rechercher sa voiture peut vite devenir pénible.<br>Des milliers d'offres, des milliers de modèles, une très mauvaise expérience en ligne.<br><br>Et pourtant, c'est un objet d'exception.<br><br>Et si trouver sa voiture était comme trouver sa deuxième moitié ? Helmut te propose une expérience totalement innovante sur le marché.</a></h1>
 					</div>
 				</div>
 			</div>
 		</section>
+		<section class="features-list" id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="headline">
+							<h2>COMMENT ÇA MARCHE ?</h2>
+						</div>
+						<div class="col-md-4 feature-1 wp2">
+							<div class="feature-icon">
+								<i class="fa fa-car"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Décris toi</h1>
+								<p>Définis qui tu es. Plus tu en dis, plus Helmut te sera efficace.</p>
+								
+							</div>
+						</div>
+						<div class="col-md-4 feature-2 wp2">
+							<div class="feature-icon">
+								<i class="fa fa-heart"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Tombe amoureux</h1>
+								<p>Helmut te propose alors une sélection sur un plateau. En fonction de tes goûts et envies, Helmut te sert la crème de la crème.</p>
+							
+							</div>
+						</div>
+						<div class="col-md-4 feature-3 wp2">
+							<div class="feature-icon">
+								<i class="fa fa-share"></i>
+							</div>
+							<div class="feature-content">
+								<h1>Partage</h1>
+								<p>Parles en autour de toi avec la communauté d'experts.</p>
+								
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--<section class="showcase">
+			<div class="showcase-wrap">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="device wp3">
+								<div class="device-content">
+									<div class="showcase-slider">
+										<ul class="slides" id="showcaseSlider">
+											<li>
+												<img src="img/screen1.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen2.jpg" alt="Device Content Image">
+											</li>
+											<li>
+												<img src="img/screen3.jpg" alt="Device Content Image">
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<h2 style="color: white">Une interface simple d'utilisation</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+							<blockquote class="team-quote">
+								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
+								<p>"Helmut m'a bluffé avec sa nouvelle façon de m'aider à trouver mon prochain coup de coeur."</p>
+							</blockquote>
+							<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">S'inscrire gratuitement</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		
 		<section class="features-intro">
 			<div class="container-fluid">
 				<div class="row">
@@ -108,96 +200,8 @@
 				</div>
 			</div>
 		</section>
-		<section class="features-list" id="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
 
-						<div class="col-md-4 feature-1 wp2">
-							<div class="feature-icon">
-								<i class="fa fa-car"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Décris toi</h1>
-								<p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
-								
-							</div>
-						</div>
-						<div class="col-md-4 feature-2 wp2 delay-05s">
-							<div class="feature-icon">
-								<i class="fa fa-heart"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Tombe amoureux</h1>
-								<p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
-							
-							</div>
-						</div>
-						<div class="col-md-4 feature-3 wp2 delay-1s">
-							<div class="feature-icon">
-								<i class="fa fa-share"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Partage</h1>
-								<p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
-								
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="showcase">
-			<div class="showcase-wrap">
-				
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="device wp3">
-								<div class="device-content">
-									<div class="showcase-slider">
-										<ul class="slides" id="showcaseSlider">
-											<li>
-												<img src="img/screen1.jpg" alt="Device Content Image">
-											</li>
-											<li>
-												<img src="img/screen2.jpg" alt="Device Content Image">
-											</li>
-											<li>
-												<img src="img/screen3.jpg" alt="Device Content Image">
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<h2>Une interface simple d'utilisation</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-							<blockquote class="team-quote">
-								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
-								<p>"Helmut m'a bluffé avec sa nouvelle façon de m'aider à trouver mon prochain coup de coeur."</p>
-							</blockquote>
-							<a href="http://tympanus.net/codrops/?p=22554" class="download-btn">S'inscrire</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="screenshots-intro">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<h1>Helmut sur Facebook</h1>
-						<p>Rejoint la communauté Helmut sur Facebook. Une vraie communauté de passionnés partageant images, dernières nouveautés mais surtout des offres exceptionnelles.</p>
-						<p><a href="#screenshots" class="arrow-btn">Rejoins Helmut sur Facebook <i class="fa fa-long-arrow-right"></i></a></p>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="screenshots" id="screenshots">
+		<!-- <section class="screenshots" id="screenshots">
 			<div class="container-fluid">
 				<div class="row">
 					<ul class="grid">
@@ -312,7 +316,7 @@
 					</ul>
 				</div>
 			</div>
-		</section>
+		</section>-->
 		<section class="download" id="download">
 			<div class="container">
 				<div class="row">
@@ -323,6 +327,23 @@
 				</div>
 			</div>
 		</section>
+
+				<section class="screenshots-intro">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1>Helmut sur Facebook</h1>
+						<p>Rejoint la communauté Helmut sur Facebook.</p>
+							
+						<div class="fb-like-box" data-href="https://www.facebook.com/garagehelmut" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+
+
+						<p><a href="#screenshots" class="arrow-btn">Rejoins Helmut sur Facebook <i class="fa fa-long-arrow-right"></i></a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<footer>
 			<div class="container">
 				<div class="row">
@@ -330,7 +351,7 @@
 						<h1 class="footer-logo">
 						<img src="img/logo-blue.png" alt="Footer Logo Blue">
 						</h1>
-						<p>© Helmut 2015 - <a href="http://tympanus.net/codrops/licensing/">Licence</a> - Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
+						<p>© Helmut 2015 </p>
 					</div>
 					<div class="col-md-7">
 						<ul class="footer-nav">

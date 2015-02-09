@@ -118,7 +118,7 @@ h1 {
 h2 {
     margin: 0.83em 0;
     font-size: 1.5em;
-    color: white;
+    color: #3d3d3d;
     font-weight: 500;
 }
 h3 {
@@ -466,6 +466,12 @@ a:hover, a:focus {
     background-image: url(../img/grid.png);
 }
 
+.headline{
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+
 /* ==========================================================================
 Buttons
 ========================================================================== */
@@ -661,7 +667,7 @@ Features Slider
 .features-bg {
     position: relative;
     min-height: 400px;
-    background: url('../img/features-intro-01.jpg') no-repeat center center;
+    background: url('../img/feature-intro.jpg') no-repeat center center;
     background-size: cover;
 }
 .features-img {
