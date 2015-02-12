@@ -96,4 +96,13 @@ $('a[href*=#]:not([href=#])').click(function() {
 			return false;
 		}
 	}
+	
 });
+
+
+/* Google Analytics events*/
+$('fadeInDown').click(function() {
+	_gaq.push(['_trackEvent', 'Sinscrire', 'Top']);
+	
+});
+
