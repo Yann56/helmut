@@ -648,8 +648,8 @@ section.video h1 {
     font-size: 20px;
 }
 section.video {
-    padding: 100px 0;
-    background-color: #ebf0f3;
+    padding: 100px 100px;
+    background-color: #fff;
 }
 section.video a {
     color: #323a45
@@ -799,6 +799,22 @@ blockquote .logo-quote {
     margin: 0 0 0 90px;
 }
 
+/* ==========================================================================
+imac
+========================================================================== */
+.imac {
+    background: #ebf0f3 no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+}
+
+.device-imac {
+    position: relative;
+    background: url('../img/imac.png') no-repeat center center;
+    min-height: 700px;
+    width: 650px;
+    margin: 0px 0px 0px 40%;
+}
 
 
 /* ==========================================================================
