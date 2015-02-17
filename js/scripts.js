@@ -101,7 +101,7 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 
 /* Google Analytics events*/
-$('fadeInUp').click(function() {
+$('').click(function() {
 	_gaq.push(['_trackEvent', 'Sinscrire', 'Top']);
 	
 });

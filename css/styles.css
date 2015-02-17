@@ -116,14 +116,15 @@ h1 {
     font-size: 2em;
 }
 h2 {
-    margin: 0.83em 0;
-    font-size: 1.5em;
+    margin: 0em 0;
+    font-size: 1.1em;
     color: #3d3d3d;
-    font-weight: 500;
+    font-weight: 600;
 }
 h3 {
     margin: 1em 0;
     font-size: 1.17em;
+    font-weight: 400;
 }
 h4 {
     margin: 1.33em 0;
@@ -136,6 +137,10 @@ h5 {
 h6 {
     margin: 2.33em 0;
     font-size: 0.75em;
+}
+
+p{
+    font-size: 2.4em;
 }
 
 /*
@@ -447,7 +452,7 @@ a {
     padding: 0 !important;
 }
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
 }
 a {
@@ -467,8 +472,11 @@ a:hover, a:focus {
 }
 
 .headline{
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     text-align: center;
+    font-size:1.7em;
+    font-weight: 600;
+    color: #3d3d3d; 
 
 }
 
@@ -490,17 +498,26 @@ Buttons
     color: #FA8706;
     text-decoration: none;
 }
-.learn-btn, .download-btn {
+.learn-btn {
     display: inline-block;
-    padding: 18px 46px;
+    padding: 20px 50px;
     border: 2px solid #fff;
     border-radius: 3px;
     color: #fff;
     font-size: 16px;
 }
-.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    border-color: #EF8005;
+.download-btn {
+    display: inline-block;
+    padding: 20px 50px;
+    border: 2px solid #EF8005;
+    border-radius: 3px;
     color: #EF8005;
+    font-size: 16px;
+}
+.learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
+    color: white;
+    background: #EF8005;
+    border: 2px solid #EF8005;
     text-decoration: none;
 }
 .read-more-btn {
@@ -516,7 +533,7 @@ Buttons
     margin-top: 50px
 }
 .download .download-btn {
-    margin-top: 25px
+    margin-top: 25px;
 }
 
 /* ==========================================================================
@@ -597,7 +614,7 @@ Hero
 .hero h1 {
     margin: 170px 0 45px 0;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 45px;
 }
 .hero h1 span {
     display: inline-block;
@@ -631,8 +648,8 @@ section.video h1 {
     font-size: 20px;
 }
 section.video {
-    padding: 100px 0;
-    background-color: #f6f7f9;
+    padding: 100px 100px;
+    background-color: #fff;
 }
 section.video a {
     color: #323a45
@@ -652,9 +669,9 @@ Custom Slider Controls (Flickity)
     width: 13px;
     height: 13px;
     opacity: 1;
-    background: transparent;
-    border: 2px solid white;
-    -webkit-transition: background 0.3s;
+    background: #D7D7D7;
+    border: 2px solid #D9D9D9;
+    -webkit-transition: background 0s;
     transition: background 0.3s;
 }
 .flickity-page-dots .dot.is-selected {
@@ -725,7 +742,7 @@ Features List
 .features-list h1 {
     margin: 0 0 10px 0;
     padding: 0;
-    color: #24374b;
+    color: #3d3d3d;
     font-size: 20px;
 }
 .features-list p {
@@ -742,7 +759,7 @@ Features List
     margin-right: 25px;
     width: 90px;
     height: 90px;
-    border: solid 2px #4e9ba3;
+    border: solid 2px #3d3d3d;
     border-radius: 50%;
     vertical-align: top;
     text-align: center;
@@ -750,8 +767,9 @@ Features List
     line-height: 90px;
 }
 .feature-icon i {
-    color: #4e9ba3
+    color: #3d3d3d;
 }
+
 
 /* ==========================================================================
 Blockquote
@@ -782,45 +800,63 @@ blockquote .logo-quote {
 }
 
 /* ==========================================================================
+imac
+========================================================================== */
+.imac {
+    background: #EEEEEE no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+}
+
+.device-imac {
+    position: relative;
+    background: url('../img/imac.png') no-repeat center center;
+    min-height: 700px;
+    width: 650px;
+    margin: 0px 0px 0px 40%;
+}
+
+
+/* ==========================================================================
 Showcase
 ========================================================================== */
 .showcase {
-    background: url('../img/showcase-bg-fixed-01.jpg') no-repeat center center fixed;
+    background: #EEEEEE no-repeat center center fixed;
     background-size: cover;
 }
 .showcase h1 {
     margin: 0 0 20px 0;
-    color: #fff;
+    color: #3d3d3d;
     font-weight: 400;
     font-size: 22px;
 }
 .showcase p {
     margin-bottom: 25px;
-    color: #fff;
+    color: #3d3d3d;
 }
 .device {
     position: absolute;
-    top: -60px;
-    left: 20%;
-    min-height: 676px;
-    width: 359px;
-    background: url('../img/iphone-skeleton.png') no-repeat center center;
+    top: 0px;
+    left: 0%;
+    min-height: 438px;
+    width: 500px;
+    background: url('../img/Browser.png') no-repeat center center;
 }
 .device-content {
     position: absolute;
-    top: 115px;
-    left: 56px;
-    width: 247px;
-    height: 445px;
+    top: 42px;
+    left: 0%;
+    width: 500px;
+    height: 395px;
     background: rgba(0, 0, 0, 0.3);
 }
 .device-content img {
-    width: 247px;
-    height: 445px;
+    width: 500px;
+    height: 395px;
 }
 .showcase-wrap {
     position: relative;
-    padding: 100px 0;
+    padding: 60px 0;
     min-height: 600px;
 }
 .showcase-slider ul {
@@ -831,6 +867,8 @@ Showcase
 .showcase-slider .flickity-page-dots {
     bottom: 20px;
 }
+
+
 
 /* ==========================================================================
 Screenshots Intro
@@ -936,12 +974,14 @@ Screenshots
     transform: translate(0px, 0px);
 }
 
+
+
 /* ==========================================================================
 Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #3f6184;
+    background-color: #1D1C1C;
 }
 .download h1 {
     margin: 0 0 15px 0;
