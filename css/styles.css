@@ -637,7 +637,7 @@ Video
 ========================================================================== */
 section.video i {
     margin-right: 10px;
-    color: #323a45;
+    color: #555555;
     vertical-align: middle;
     font-size: 50px;
     -webkit-transition: color 300ms ease-in-out;
@@ -742,7 +742,7 @@ Features List
 .features-list h1 {
     margin: 0 0 10px 0;
     padding: 0;
-    color: #3d3d3d;
+    color: #FA8706;
     font-size: 20px;
 }
 .features-list p {
@@ -826,7 +826,7 @@ Showcase
 }
 .showcase h1 {
     margin: 0 0 20px 0;
-    color: #3d3d3d;
+    color: #555555;
     font-weight: 400;
     font-size: 22px;
 }
@@ -973,6 +973,11 @@ Screenshots
     -ms-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
 }
+
+
+/* ==========================================================================
+Facebook 
+========================================================================== */
 
 
 

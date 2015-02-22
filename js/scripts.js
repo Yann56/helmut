@@ -99,10 +99,3 @@ $('a[href*=#]:not([href=#])').click(function() {
 	
 });
 
-
-/* Google Analytics events*/
-$('').click(function() {
-	_gaq.push(['_trackEvent', 'Sinscrire', 'Top']);
-	
-});
-
