@@ -99,3 +99,8 @@ $('a[href*=#]:not([href=#])').click(function() {
 	
 });
 
+/***************** Sentence ******************/
+
+$('sentence').click(function(random))
+
+

@@ -20,6 +20,7 @@
 	.learn-btn{display:none;}
 	footer li{display:block;text-align:left;padding:20px 0;border-bottom:dashed 1px #c7cacc;margin-right:0!important;float:none;}
 	nav{margin-top:40px;}
+	.imac{display: none}
 	.overlay ul{margin-left:0px;}
 	.overlay ul li a{padding:20px 0;min-width:120px;font-size:12px;}
 }
