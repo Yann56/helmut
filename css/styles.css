@@ -840,6 +840,7 @@ section.random{
 }
 
 .sentence{
+    margin-top:180px;
     vertical-align: center;
     color: white;
     font-size:30px;
