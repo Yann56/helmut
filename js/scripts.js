@@ -102,5 +102,11 @@ $('a[href*=#]:not([href=#])').click(function() {
 /***************** Sentence ******************/
 
 $('sentence').click(function(random))
+sentence1={"la belle italienne";"classique";"sportive"}
+sentence2={"la fougeuse allemande";"moderne";"citadine"}
+sentence3={"la fougueuse allemande";"familiale";"puissante"}
+sentence4={"la classe anglaise";"moderne";"baroudeuse"}
+sentence5={"style français";"classique";"confortable"}
+
 
 

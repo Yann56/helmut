@@ -485,21 +485,22 @@ Buttons
 ========================================================================== */
 .use-btn {
     display: inline-block;
-    margin: 0 10px 10px 0;
+    margin: 0 20px 10px 0;
     padding: 20px 50px;
     border-radius: 3px;
-    background-color: #FA8706;
-    border: #EF8005;
+    background-color: #EF8005;
+    border: 2px solid #EF8005;
     color: #fff;
     font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #fff;
-    color: #FA8706;
+    background-color: #EF8005;
+    color: #fff;
     text-decoration: none;
 }
 .learn-btn {
     display: inline-block;
+    margin: 0 20px 10px 0;
     padding: 20px 50px;
     border: 2px solid #fff;
     border-radius: 3px;
@@ -509,7 +510,7 @@ Buttons
 .download-btn {
     display: inline-block;
     padding: 20px 50px;
-    border: 1px solid #EF8005;
+    border: 2px solid #EF8005;
     border-radius: 3px;
     color: #EF8005;
     font-size: 16px;
@@ -517,7 +518,7 @@ Buttons
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     color: white;
     background: #EF8005;
-    border: 1px solid #EF8005;
+    border: 2px solid #EF8005;
     text-decoration: none;
 }
 .read-more-btn {
@@ -636,14 +637,14 @@ Hero
 .hero {
     position: relative;
     padding: 60px 0 60px 0;
-    min-height: 800px;
-    background: rgb(100, 70, 102) url('../img/bmw3.png') no-repeat center center;
+    min-height: 700px;
+    background: rgb(0,0,0) url('../img/audia3.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
 }
 .hero h1 {
     margin: 170px 0 45px 0;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 45px;
 }
 .hero h1 span {
@@ -836,11 +837,11 @@ random
 
 section.random{
     background: #313131;
-    height:500px;
+    min-height: 400px;
 }
 
 .sentence{
-    margin-top:180px;
+    margin-top:120px;
     vertical-align: center;
     color: white;
     font-size:30px;
