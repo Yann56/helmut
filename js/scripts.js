@@ -110,11 +110,11 @@ $('.shuffle-btn').click(function(){
 if (count>4) { count=0; };
 
 sentence=[
-			["la belle italienne","classique","sportive"],
-			["la fougeuse allemande","moderne","citadine"],
-			["la fougueuse allemande","familiale","puissante"],
+			["les belles italiennes","classiques","sportives"],
+			["les fougeuses allemandes","modernes","citadines"],
+			["les fougueuses allemandes","familiales","puissantes"],
 			["la classe anglaise","moderne","baroudeuse"],
-			["style français","classique","confortable"]
+			["le style français","classique","confortable"]
 		];
 
 	//var rands=Math.floor((Math.random() * 5) + 1);
