@@ -57,10 +57,10 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+
 	$("a.single_image").fancybox({
 		padding: 4,
 	});
-});
 
 /***************** Nav Transformicon ******************/
 
@@ -101,12 +101,33 @@ $('a[href*=#]:not([href=#])').click(function() {
 
 /***************** Sentence ******************/
 
-$('sentence').click(function(random))
-sentence1={"la belle italienne";"classique";"sportive"}
-sentence2={"la fougeuse allemande";"moderne";"citadine"}
-sentence3={"la fougueuse allemande";"familiale";"puissante"}
-sentence4={"la classe anglaise";"moderne";"baroudeuse"}
-sentence5={"style français";"classique";"confortable"}
 
 
+var count=0;
 
+$('.shuffle-btn').click(function(){
+
+if (count>4) { count=0; };
+
+sentence=[
+			["la belle italienne","classique","sportive"],
+			["la fougeuse allemande","moderne","citadine"],
+			["la fougueuse allemande","familiale","puissante"],
+			["la classe anglaise","moderne","baroudeuse"],
+			["style français","classique","confortable"]
+		];
+
+	//var rands=Math.floor((Math.random() * 5) + 1);
+
+	$(".ng-binding").each(function(index){
+
+		$(this).text(sentence[count][index]);
+	//console.log(sentence[rands][index]);
+});
+
+count+=1;
+
+});
+
+
+});
