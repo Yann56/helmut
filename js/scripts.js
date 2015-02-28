@@ -57,10 +57,10 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+
 	$("a.single_image").fancybox({
 		padding: 4,
 	});
-});
 
 /***************** Nav Transformicon ******************/
 
@@ -99,3 +99,35 @@ $('a[href*=#]:not([href=#])').click(function() {
 	
 });
 
+/***************** Sentence ******************/
+
+
+
+var count=0;
+
+$('.shuffle-btn').click(function(){
+
+if (count>4) { count=0; };
+
+sentence=[
+			["les belles italiennes","classiques","sportives"],
+			["les fougeuses allemandes","modernes","citadines"],
+			["les fougueuses allemandes","familiales","puissantes"],
+			["la classe anglaise","moderne","baroudeuse"],
+			["le style français","classique","confortable"]
+		];
+
+	//var rands=Math.floor((Math.random() * 5) + 1);
+
+	$(".ng-binding").each(function(index){
+
+		$(this).text(sentence[count][index]);
+	//console.log(sentence[rands][index]);
+});
+
+count+=1;
+
+});
+
+
+});

@@ -485,21 +485,22 @@ Buttons
 ========================================================================== */
 .use-btn {
     display: inline-block;
-    margin: 0 10px 10px 0;
+    margin: 0 20px 10px 0;
     padding: 20px 50px;
     border-radius: 3px;
-    background-color: #FA8706;
-    border: #EF8005;
+    background-color: #EF8005;
+    border: 2px solid #EF8005;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #fff;
-    color: #FA8706;
+    background-color: #EF8005;
+    color: #fff;
     text-decoration: none;
 }
 .learn-btn {
     display: inline-block;
+    margin: 0 20px 10px 0;
     padding: 20px 50px;
     border: 2px solid #fff;
     border-radius: 3px;
@@ -535,6 +536,36 @@ Buttons
 .download .download-btn {
     margin-top: 25px;
 }
+
+.shuffle-btn{
+    display: inline-block;
+    margin: 50px 8px 8px 0;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.use2-btn{
+    display: inline-block;
+    margin: 50px 8px 8px 0;
+    padding: 15px 20px;
+    border-radius: 3px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.shuffle-btn:hover, .use2-btn:hover, .shuffle-btn:focus, .use2-btn:focus{
+    color: #EF8005;
+    border: 1px solid #EF8005;
+    text-decoration: none;
+}
+
+
 
 /* ==========================================================================
 Navigation
@@ -606,14 +637,14 @@ Hero
 .hero {
     position: relative;
     padding: 60px 0 60px 0;
-    min-height: 800px;
-    background: rgb(100, 70, 102) url('../img/bmw3.png') no-repeat center center;
+    min-height: 700px;
+    background: rgb(0,0,0) url('../img/audia3.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
 }
 .hero h1 {
     margin: 170px 0 45px 0;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 45px;
 }
 .hero h1 span {
@@ -798,6 +829,29 @@ blockquote .avatar {
 blockquote .logo-quote {
     display: inline-block;
     margin: 0 0 0 90px;
+}
+
+/* ==========================================================================
+random
+========================================================================== */
+
+section.random{
+    background: #313131;
+    min-height: 400px;
+}
+
+.sentence{
+    margin-top:120px;
+    vertical-align: center;
+    color: white;
+    font-size:30px;
+}
+
+.ng-binding{
+    color:#FA8706;
+    font-weight: 600;
+    border-bottom: 1px #FA8706 dotted;
+    text-decoration: none;
 }
 
 /* ==========================================================================
@@ -987,7 +1041,7 @@ Download Now
 ========================================================================== */
 .download {
     padding: 120px 0;
-    background-color: #1D1C1C;
+    background-color: #313131;
 }
 .download h1 {
     margin: 0 0 15px 0;
