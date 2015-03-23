@@ -693,8 +693,7 @@ Hero-1
 
 .hero-1 {
     position: relative;
-    padding: 0px 0 60px 0;
-    min-height: 500px;
+    min-height:800px;
     background: #FBFBFB no-repeat center center;
     background-size: cover;
     color: #fff;
@@ -727,15 +726,67 @@ Hero-1
     margin-top: 50px;
 }
 
-.action p{
-    font-size:20px;
+.sub-headline{
+    font-size:14px;
+    color: #676767;
+    font-weight: 300;
+    margin-top: -30px;
+
+}
+
+.hero-1 p{
+    font-size:12px;
+    font-weight: 300;
     color:#333333;
 }
 
+.information{
+    background: #fff;
+    margin-bottom: 22px;
+    margin-top: 55px;
+    border: 1px solid #F0EBEB;
+}
+
+.properties-information{
+    width: 924px;
+    height: 470px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image{
+    position: absolute;
+    size: 100%;
+    margin-left: 40px;
+    width: 230px;
+    height: 170px;
+}
+
+.contenu{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contenu p{
+    line-height: 1.4em;
+}
+
 .navbar{
-    background: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,1);
     height:60px;
     padding-top: 17px;
+}
+
+.navbar-bottom{
+    background: rgba(255,255,255,0.95);
+    height:50px;
+    border-top: 1px solid #EEE4E4;
+    padding-top: 17px;
+    color:#333333;
+}
+
+.sentences{
+    margin-left: 100px;
 }
 
 .sentence-2 {
@@ -753,8 +804,9 @@ header i {
     margin-left: 5px
 }
 
-
-
+.content{
+    border:1px solid #333333;
+}
 
 /* ==========================================================================
 Video

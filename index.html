@@ -68,16 +68,25 @@
 
 		</script>
 
-		<script type="text/javascript">
-			// Popup window code
-			function newPopup(url) {
-				popupWindow = window.open(
-					url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
-			}
-</script>
-
 	</head>
 	<body>
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '389313394581663',
+		      xfbml      : true,
+		      version    : 'v2.2'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
 		<!--[if lt IE 7]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
@@ -203,7 +212,7 @@
 			<div class="showcase-wrap">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-7">
+						<div class="col-md-8">
 							<div class="device">
 								<div class="device-content">
 									<div class="showcase-slider">
@@ -222,8 +231,8 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-5">
-							<div class="headline" style="text-align: left; margin-top: 50px; margin-bottom:40px!Important">
+						<div class="col-md-4">
+							<div class="headline" style="text-align: left; margin-top: 50px;">
 							<span>Trouve l'amour sur quatre roues.</span>
 							</div>
 							<p>Une fois ton profil défini, retrouve sur la plateforme des annonces et du contenu ciblés. Like ou Dislike, partage, Helmut améliore sans cesse la qualité de ses résultats. Lorsque tu as enfin trouvé la perle rare, interagis avec la communauté, entre en contact avec le vendeur et finalise ton achat sereinement et en toute confiance.<br><br>
@@ -291,7 +300,7 @@
 			<nav>
 				<ul>
 					<li><a href="#screenshots">A propos</a></li>
-					<li><a href="http://eepurl.com/bej3gT">Trouver ma voiture</a></li>
+					<li><a target="_new" href="http://eepurl.com/bej3gT">Trouver ma voiture</a></li>
 				</ul>
 			</nav>
 		</div>

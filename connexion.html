@@ -67,57 +67,66 @@
 			  })();
 
 		</script>
-
-		<script type="text/javascript">
-			// Popup window code
-			function newPopup(url) {
-				popupWindow = window.open(
-					url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
-			}
-</script>
 	</head>
 	<body>
+		<script>
+		  window.fbAsyncInit = function() {
+		    FB.init({
+		      appId      : '389313394581663',
+		      xfbml      : true,
+		      version    : 'v2.2'
+		    });
+		  };
+
+		  (function(d, s, id){
+		     var js, fjs = d.getElementsByTagName(s)[0];
+		     if (d.getElementById(id)) {return;}
+		     js = d.createElement(s); js.id = id;
+		     js.src = "//connect.facebook.net/en_US/sdk.js";
+		     fjs.parentNode.insertBefore(js, fjs);
+		   }(document, 'script', 'facebook-jssdk'));
+		</script>
 		<!--[if lt IE 7]>
 		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 		<![endif]-->
 		<!-- open/close -->
-		<div id="fb-root"></div>
-			<script>(function(d, s, id) {
-			  var js, fjs = d.getElementsByTagName(s)[0];
-			  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-			  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=148627638605067&version=v2.0";
-			  fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
 		<header>
-			<section class="hero-1">
-				<nav class="navbar navbar-default navbar-fixed-top">
+			<nav class="navbar navbar-default navbar-fixed-top">
 				  <div class="container">
 				    <div class="row nav-wrapper">
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
 							<a href="index.html"><img src="img/logo-black.png"></a>
 						</div>
 					</div>
-				  </div>
-				  </nav>
-				  	<div class="col-md-12 text-center">
-				  		<h1 class="headline">L'aventure commence maintenant !</h1>
-				  	</div>
-				  	<div class="col-md-12 text-center">
-				  		<img src="img/iconProfile.png"></img>
-				  	</div>
-				  	<div class="sentence-2 text-center">
-						<span>J'ai un faible pour <span class="ng-binding">les fougueuses allemandes</span>, <span class="ng-binding">modernes</span> et <span class="ng-binding">citadines</span>.</span>
-					</div>
-				    <div class="action col-md-12 text-center">
-				  		<a href="#" class="signin-btn">Faire le test</a>
-				  </div>		
+				  </div> 
+			</nav>
 
-				  
-
-		<footer>
+			<section class="hero-1">
+					<div class="row">
+						<div class="col-md-12 text-center">
+				  			<h1 class="headline">Créer ton profil</h1>
+				  			<h2 class="sub-headline">Enregistre tes paramêtres pour ta prochaine connexion</h2>
+				  		</div>
+				  	</div>		
+				  	<div class="information properties-information text-center">
+								  	
+				  	</div>		
+			</section>
 			
-		</footer>		
+			
+			<section>
+				 <nav class="navbar-bottom navbar-default navbar-fixed-bottom">
+					<div class="col-md-8 text-center">
+						<span class="sentences">J'ai un faible pour <span class="copy-sentence">...</span>  <span class="copy-sentence">...</span>   <span class="copy-sentence">...</span></span>
+					</div>	
+					<div class="col-md-4 text-center">	
+						<a href="profile.html">Refaire le test</a>
+					</div>
+				  </nav>	
+			</section>	
+
+
+		</header>	  			
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/min/toucheffects-min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -128,7 +137,18 @@
 		<script src="js/waypoints.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<!--script src="js/min/scripts-min.js"></script-->
-		<script src="js/scripts.js"></script>  	
-					
+		<script src="js/scripts.js"></script>  		
+
+		<script>
+			$(document).ready(function(){
+				var count =0;
+					$(".formpage_2").click(function(){
+
+							$(".copy-sentence").eq(count).text($(this).text());
+								count++;
+					});
+
+			});
+		</script>		
 	</body>
 </html>

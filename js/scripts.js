@@ -99,6 +99,24 @@ $('a[href*=#]:not([href=#])').click(function() {
 	
 });
 
+
+/***************** Change Page on section ******************/
+
+
+function pagechange(frompage, topage) {
+  var page=document.getElementById('formpage_'+frompage);
+  if (!page) return false;
+  page.style.visibility='hidden';
+  page.style.display='none';
+
+  page=document.getElementById('formpage_'+topage);
+  if (!page) return false;
+  page.style.display='block';
+  page.style.visibility='visible';
+
+  return true;
+};
+
 /***************** Sentence ******************/
 
 
@@ -129,5 +147,18 @@ count+=1;
 
 });
 
+/*
+	text={
+			"classic":{"sportive":{"content step 1","imge path"},"step2":"content step 2","step3":"content step 3"},
+			"moderne":{"step1":"content step 1","step2":"content step 2","step3":"content step 3"}
+		};
+		*/
+
+	$(".pagechange").click(function(){
+
+		$("#formpage_"+$(this).attr("data-section")).hide();
+		$("#formpage_"+$(this).attr("data-section-next")).show();
+
+	});
 
 });
