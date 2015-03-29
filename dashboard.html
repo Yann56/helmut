@@ -97,36 +97,58 @@
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
 							<a href="index.html"><img src="img/logo-black.png"></a>
 						</div>
+						<div class="dropdown col-md-6 col-sm-6 col-xs-6 text-right">
+							<img src="img/identity.png" id="dLabel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							 	<ul class="dropdown-menu col-md-12 text-right" role="menu" aria-labelledby="dLabel">
+							    	<li href="profile.html">Profile</li>
+							    	<li>Se déconnecter</li>
+							 	</ul>
+						</div>
 					</div>
 				  </div> 
 			</nav>
 
-			<section class="hero-test">
+			<section class="hero-dashboard">
 					<div class="row">
+						<div class="notification col-md-12 text-center">
+							<span class="sentence-2">J'ai un faible pour</span>
+							<a href="" class="signin-btn" type="button" data-toggle="modal" data-target="#myModal">Changer de style</a>
+									<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+									  <div class="modal-dialog">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+									        <h2 class="modal-title" id="myModalLabel">Changer de style</h2>
+									      </div>
+									      <div class="modal-body">
+									        ...
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-default" data-dismiss="modal">Annuler</button>
+									        <button type="button" class="btn btn-primary">Confirmer</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
+						</div>	
 						<div class="col-md-12 text-center">
-				  			<h1 class="headline">Créer ton profil</h1>
-				  			<h2 class="sub-headline">Enregistre tes paramêtres pour ta prochaine connexion</h2>
+				  			<h1 class="headline">Ta sélection de voitures</h1>
+				  			<h2 class="sub-headline">Sans frioriture.</h2>
 				  		</div>
-				  	</div>		
-				  	<div class="information properties-information text-center">
-						<a href="dashboard.html">Au profil</a>		  	
-				  	</div>		
+				  	<div class="row col-md-12 text-center">
+				  		<div class="presentation">
+				  			<img class="voiture" src="img/S3-sline.jpg"></img>
+				  		</div>	
+				  		<div class="description">
+				  			<p>lksdslkslkdsklsk</p>
+				  		</div>	
+				  	</div>
+				  	</div>				
 			</section>
 			
-			
-			<section>
-				 <nav class="navbar-bottom navbar-default navbar-fixed-bottom">
-					<div class="col-md-8 text-center">
-						<span class="sentences">J'ai un faible pour <span class="copy-sentence">...</span>  <span class="copy-sentence">...</span>   <span class="copy-sentence">...</span></span>
-					</div>	
-					<div class="col-md-4 text-center">	
-						<a href="profile.html">Refaire le test</a>
-					</div>
-				  </nav>	
-			</section>	
 
 
-		</header>	 			
+		</header>				
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="js/min/toucheffects-min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

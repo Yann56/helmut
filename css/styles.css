@@ -473,7 +473,7 @@ a:hover, a:focus {
 }
 
 .headline{
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     text-align: center;
     font-size:1.7em;
     font-weight: 600;
@@ -568,18 +568,16 @@ Buttons
 
 .signin-btn{
     display: inline-block;
-    margin: 0 10px 10px 0;
-    padding: 10px 10px;
+    padding: 8px 8px;
     border-radius: 2px;
-    background-color: #EF8005;
-    border: 1px solid #EF8005;
-    color: #fff;
-    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid #CFCFCF;
+    color: #333333;
+    font-size: 11px;
 }
 
 .signin-btn:hover, .signin-btn:focus{
-    color: #fff;
-    background: #EF8005;
+    color:#333333;
     text-decoration: none;
 }
 
@@ -688,22 +686,22 @@ header i {
 
 
 /* ==========================================================================
-Hero-1
+Hero-test
 ========================================================================== */
 
-.hero-1 {
-    position: absolute;
+.hero-test {
+    position: relative;
     background: #FBFBFB no-repeat center center;
     background-size: cover;
     color: #fff;
 }
-.hero-1 h1 {
+.hero-test h1 {
     padding-top: 100px;
     color:#333333;
     font-weight: 700;
     font-size: 30px;
 }
-.hero-1 h1 span {
+.hero-test h1 span {
     display: inline-block;
     color: #333333;
 }
@@ -712,7 +710,7 @@ Hero-1
     width: 100%;
     height: 100%;
 }
-.hero-1 {
+.hero-test {
     width: 100%;
     height: 100%;
 }
@@ -730,11 +728,9 @@ Hero-1
     font-size:14px;
     color: #676767;
     font-weight: 300;
-    margin-top: -30px;
-
 }
 
-.hero-1 p{
+.hero-test p{
     font-size:12px;
     font-weight: 300;
     color:#333333;
@@ -747,14 +743,15 @@ Hero-1
 }
 
 .properties-information{
+    position:relative;
     width: 924px;
-    height: 500px;
+    height:1100px;
     background: #fff no-repeat no-repeat center;
     margin-right: auto;
     margin-left: auto;
 }
 
-.hero-1 img{
+.hero-test img{
     margin-bottom: 70px;
 }
 
@@ -799,7 +796,7 @@ Hero-1
     margin: 20px 0 45px 0;
     padding-top: 50px;
     color:#333333;
-    font-size: 24px;   
+    font-size: 36px;   
 }
 
 .ng-binding{
@@ -813,6 +810,102 @@ header i {
 .content{
     border:1px solid #333333;
 }
+
+
+/* ==========================================================================
+Hero-dashboard
+========================================================================== */
+
+.hero-dashboard {
+    position: relative;
+    background: #FBFBFB no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+.hero-dashboard h1 {
+    padding-top: 20px;
+    color:#333333;
+    font-weight: 700;
+    font-size: 30px;
+}
+.hero-dashboard h1 span {
+    display: inline-block;
+    color: #333333;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
+}
+
+.sub-headline{
+    font-size:14px;
+    color: #676767;
+    font-weight: 300;
+}
+
+.hero-dashboard p{
+    font-size:12px;
+    font-weight: 300;
+    color:#333333;
+}
+
+.presentation{
+    position: relative;
+    margin-top: 30px;
+}
+
+.voiture{
+    position: relative;
+    background-size: cover;
+    size: 100%;
+    width: 691px;
+    height: 428px;
+}
+
+.description{
+    position: relative;
+    width: 691px;
+    background:#fff;
+    border: 1px solid #F0EBEB;
+    margin-top: 20px;
+}
+
+.notification{
+    background-color: #fff;
+    width:100%;
+    height: 50px;
+    margin-top: 65px;
+}
+
+.contenu{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contenu p{
+    line-height: 1.4em;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.sentence-2 {
+    margin: 20px 0 45px 0;
+    padding-top: 50px;
+    color:#333333;
+    font-size: 14px;   
+}
+
+.ng-binding{
+    color:#EF8005;
+}
+
+header i {
+    margin-left: 5px
+}
+
+
+
 
 /* ==========================================================================
 Video
@@ -1209,7 +1302,8 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    padding: 100px 0
+    padding: 100px 50px;
+    background: #fff;
 }
 footer p {
     color: #c7cacc;
