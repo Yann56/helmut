@@ -477,8 +477,13 @@ a:hover, a:focus {
     text-align: center;
     font-size:1.7em;
     font-weight: 600;
-    color: #3d3d3d; 
+    color: #555555; 
+}
 
+.sub-headline{
+    font-size:14px;
+    color: #676767;
+    font-weight: 300;
 }
 
 /* ==========================================================================
@@ -490,7 +495,7 @@ Buttons
     padding: 20px 50px;
     border-radius: 3px;
     background-color: #EF8005;
-    border: 2px solid #EF8005;
+    border: 2px solid #D57406;
     color: #fff;
     font-size: 16px;
 }
@@ -511,7 +516,7 @@ Buttons
 .download-btn {
     display: inline-block;
     padding: 20px 50px;
-    border: 2px solid #EF8005;
+    border: 2px solid #D57406;
     border-radius: 3px;
     color: #EF8005;
     font-size: 16px;
@@ -549,6 +554,18 @@ Buttons
     font-size: 16px;
 }
 
+.like-btn{
+    display: inline-block;
+    padding: 8px 8px;
+    margin-right: 30px;
+    margin-top: 14px;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid #CFCFCF;
+    color: #333333;
+    font-size: 11px; 
+}
+
 .use2-btn{
     display: inline-block;
     margin: 50px 8px 8px 0;
@@ -562,7 +579,7 @@ Buttons
 
 .shuffle-btn:hover, .use2-btn:hover, .shuffle-btn:focus, .use2-btn:focus{
     color: #EF8005;
-    border: 1px solid #EF8005;
+    border: 1px solid #D57406;
     text-decoration: none;
 }
 
@@ -579,6 +596,17 @@ Buttons
 .signin-btn:hover, .signin-btn:focus{
     color:#333333;
     text-decoration: none;
+}
+
+.cta-btn{
+    display: inline-block;
+    padding: 8px 8px;
+    border-radius: 2px;
+    background-color: #EF8005;
+    border: 1px solid #D57406;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
 }
 
 
@@ -692,9 +720,9 @@ Hero-test
 .hero-test {
     position: relative;
     background: #FBFBFB no-repeat center center;
-    background-size: cover;
     color: #fff;
 }
+
 .hero-test h1 {
     padding-top: 100px;
     color:#333333;
@@ -704,6 +732,21 @@ Hero-test
 .hero-test h1 span {
     display: inline-block;
     color: #333333;
+}
+
+.quote{
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    background-size: cover;
+    margin-top: 40px;
+    width: 691px;
+    height: 250px;
+}
+
+.citation{
+    font-size: 16px;
+    color:#333;
+    line-height: 1px;
 }
 
 #home {
@@ -724,12 +767,6 @@ Hero-test
     margin-top: 50px;
 }
 
-.sub-headline{
-    font-size:14px;
-    color: #676767;
-    font-weight: 300;
-}
-
 .hero-test p{
     font-size:12px;
     font-weight: 300;
@@ -745,10 +782,20 @@ Hero-test
 .properties-information{
     position:relative;
     width: 924px;
-    height:1100px;
+    height: 400px;
     background: #fff no-repeat no-repeat center;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 100px;
+}
+
+.form-group{
+
+}
+
+.social-login{
+    margin-top:40px;
+    margin-left: 0px;
 }
 
 .hero-test img{
@@ -776,8 +823,8 @@ Hero-test
 
 .navbar{
     background: rgba(255,255,255,1);
-    height:60px;
-    padding-top: 17px;
+    height:55px;
+    padding-top: 12px;
 }
 
 .navbar-bottom{
@@ -833,16 +880,39 @@ Hero-dashboard
     color: #333333;
 }
 
+.hero-dashboard h3 {
+    display: inline-block;
+    font-size: 14px;
+    color: #333333;
+}
+
+.hero-dashboard-headline{
+    margin-top: 60px;
+}
+
 #home {
     width: 100%;
     height: 100%;
 }
 
-.sub-headline{
-    font-size:14px;
-    color: #676767;
-    font-weight: 300;
+
+.picture{
+    background: url('../img/S3-sline.jpg') no-repeat center center;
+    background-size: cover;
+    margin-top: 40px;
+    width: 691px;
+    height: 450px;
 }
+
+.bottom{
+    background-color: rgb(0,0,0);
+    position: absolute;
+    margin-top: 390px;
+    width: 691px;
+    height: 60px;
+}
+
+
 
 .hero-dashboard p{
     font-size:12px;
@@ -850,62 +920,49 @@ Hero-dashboard
     color:#333333;
 }
 
-.presentation{
-    position: relative;
-    margin-top: 30px;
+.notification{
+    background-color: #fff;
+    border: 1px solid #F0EBEB;
+    width: 250px;
+    height: 300px;
+    vertical-align: center;
+    margin-left: 94px;
+    margin-top: 40px;
 }
-
-.voiture{
-    position: relative;
-    background-size: cover;
-    size: 100%;
-    width: 691px;
-    height: 428px;
+.notification2{
+    background-color: #D5671D;
+    border: 1px solid #BD5813;
+    width: 250px;
+    height: 150px;
+    vertical-align: center;
+    margin-left: 94px;
+    margin-top: 30px;
 }
 
 .description{
-    position: relative;
-    width: 691px;
-    background:#fff;
-    border: 1px solid #F0EBEB;
-    margin-top: 20px;
-}
-
-.notification{
     background-color: #fff;
-    width:100%;
-    height: 50px;
-    margin-top: 65px;
-}
-
-.contenu{
-    margin-top: 30px;
-    margin-bottom: 60px;
-}
-
-.contenu p{
-    line-height: 1.4em;
-    margin-right: 50px;
-    text-align: justify;
-}
-
-.sentence-2 {
-    margin: 20px 0 45px 0;
-    padding-top: 50px;
-    color:#333333;
-    font-size: 14px;   
-}
-
-.ng-binding{
-    color:#EF8005;
+    border: 1px solid #F0EBEB;
+    width: 691px;
+    height: 200px;
+    margin-top: 20px;
 }
 
 header i {
     margin-left: 5px
 }
 
+.modal-body{
+    background: #FDFDFD;
+    height: 250px;
+}
 
+.modal-footer{
+    margin-top: 0px;
+}
 
+.btn{
+    width: 150px;
+}
 
 /* ==========================================================================
 Video
