@@ -492,26 +492,29 @@ Buttons
 .use-btn {
     display: inline-block;
     margin: 0 20px 10px 0;
-    padding: 20px 50px;
+    padding: 15px 30px;
     border-radius: 3px;
-    background-color: #EF8005;
-    border: 2px solid #D57406;
+    background-color: #FA8706;
+    border-bottom: 3px solid #C96A00;
     color: #fff;
     font-size: 16px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #EF8005;
+    background-color: #C96A00;
     color: #fff;
     text-decoration: none;
 }
 .learn-btn {
     display: inline-block;
     margin: 50px 20px 10px 0;
-    padding: 20px 50px;
+    padding: 15px 30px;
+    background: transparent;
     border: 1px solid #fff;
     border-radius: 3px;
     color: #fff;
     font-size: 16px;
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
 }
 .download-btn {
     display: inline-block;
@@ -522,9 +525,8 @@ Buttons
     font-size: 16px;
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    color: white;
-    background: #EF8005;
-    border: 1px solid #EF8005;
+    color: #333333;
+    background: #fff;
     text-decoration: none;
 }
 .read-more-btn {
@@ -588,13 +590,14 @@ Buttons
     padding: 8px 8px;
     border-radius: 2px;
     background-color: transparent;
-    border: 1px solid #CFCFCF;
-    color: #333333;
-    font-size: 11px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
 }
 
 .signin-btn:hover, .signin-btn:focus{
-    color:#333333;
+    color: #333333;
+    background:#fff;
     text-decoration: none;
 }
 
@@ -684,11 +687,13 @@ Hero
     background: rgb(0,0,0) url('../img/audia3.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
+
 }
 .hero h1 {
     margin: 170px 0 45px 0;
     font-weight: 700;
-    font-size: 45px;
+    font-size:37px;
 }
 .hero h1 span {
     display: inline-block;
