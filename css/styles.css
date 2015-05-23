@@ -522,7 +522,7 @@ Buttons
     border-radius: 3px;
     color: #fff;
     font-size: 11px;
-    text-shadow: 0 1px 0.5px rgba(0,0,0,.3);
+
 }
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
     color: #333333;
@@ -684,8 +684,8 @@ Hero
     position: relative;
     padding: 30px 0 60px 0;
     min-height: 750px;
-    background: rgb(0,0,0) url('../img/audia3.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('../img/vintage2.jpg') no-repeat center center;
+    background-size: 100%;
     color: #fff;
     text-shadow: 0 1px 1px rgba(0,0,0,.5);
 
@@ -715,6 +715,46 @@ Hero
 
 header i {
     margin-left: 5px
+}
+
+.vente-modal-lg{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-title h2{
+    margin-top:30px;
+    color: #B72F29;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.modal-body p{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.modal-body input{
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    margin: 30px 30px;
+    padding: 20px 20px;
+    width: 300px;
+    height: 40px;
+    color: #474747;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.image2{
+    width: 570px;
+    height: 300px;
+    margin-top:40px;
+    margin-bottom:20px;
+    border:1px solid #fff;
+    box-shadow: 0px 0px 1px #888888;
+    background: url('../img/vente.png');
+    background-size: cover;
 }
 
 
@@ -771,8 +811,9 @@ section.explain span{
 }
 
 .feature-content p{
-    font-size:12px;
+    font-size:14px;
     line-height: 1.4em;
+    text-align: justify;
     color:#474747;
 }
 
@@ -788,7 +829,7 @@ random
 
 section.random{
     background: #313131;
-    min-height: 300px;
+    padding: 80px 100px;
 }
 
 .sentence{
@@ -819,6 +860,7 @@ section.benefits {
     color:#fff;
 }
 .benefits p{
+    margin-top:30px;
     color:#fff;
     line-height: 1.4em;
     text-align: justify;
@@ -827,29 +869,38 @@ section.benefits {
 .image{
     width: 540px;
     height: 360px;
-    background: url('../img/dashboard1.png');
+    background: url('../img/choix.png');
     background-size: cover;
 }
 
 
 /* ==========================================================================
-annonce
+benefits2
 ========================================================================== */
-
-section.annonce{
-    background-color: #B72F29;
-    padding: 120px 100px;
+section.benefits2 {
+    background: #B72F29;
+    padding: 120px 200px;
 }
 
-.annonce span{
+.benefits2 span{
     font-size: 30px;
     font-weight: 300;
     color:#fff;
 }
-
-.feature{
-    margin-top:40px;
+.benefits2 p{
+    margin-top:30px;
+    color:#fff;
+    line-height: 1.4em;
+    text-align: justify;
 }
+
+.image3{
+    width: 540px;
+    height: 360px;
+    background: url('../img/dashboard1.png');
+    background-size: cover;
+}
+
 
 
 /* ==========================================================================
