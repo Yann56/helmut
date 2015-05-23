@@ -475,7 +475,7 @@ a:hover, a:focus {
 .headline{
     text-align: center;
     font-size:30px;
-    font-weight: 600;
+    font-weight: 300;
     color: #A95108; 
 }
 
@@ -509,6 +509,7 @@ Buttons
     display: inline-block;
     padding: 15px 25px;
     background: rgba(255,255,255,0.2);
+    border: 1px solid #9E9E9E;
     border-radius: 3px;
     color: #fff;
     font-size: 12px;
@@ -750,11 +751,6 @@ section.explain span{
     padding-top: 50px;
 }
 
-.section.explain h2{
-    font-color:#000;
-    font-size:12px;
-}
-
 .feature {
     padding-top:40px;
     padding-bottom:80px;
@@ -819,7 +815,7 @@ section.benefits {
 
 .benefits span{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 300;
     color:#fff;
 }
 .benefits p{
@@ -847,7 +843,7 @@ section.annonce{
 
 .annonce span{
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 300;
     color:#fff;
 }
 
