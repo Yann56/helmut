@@ -491,6 +491,7 @@ Buttons
 ========================================================================== */
 .use-btn {
     display: inline-block;
+    margin-top: 20px;
     margin-bottom: 15px;
     padding: 15px 25px;
     border-radius: 3px;
@@ -683,7 +684,7 @@ Hero
 .hero {
     position: relative;
     padding: 30px 0 60px 0;
-    min-height: 750px;
+    min-height: 700px;
     background: url('../img/vintage2.jpg') no-repeat center center;
     background-size: 100%;
     color: #fff;
