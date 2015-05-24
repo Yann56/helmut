@@ -866,7 +866,8 @@ section.benefits {
     text-align: justify;
 }
 
-.image{
+.image{ 
+    margin-left: 100px;
     width: 540px;
     height: 360px;
     background: url('../img/choix.png');
@@ -888,6 +889,7 @@ section.benefits2 {
     color:#fff;
 }
 .benefits2 p{
+    margin-right: 150px;
     margin-top:30px;
     color:#fff;
     line-height: 1.4em;
