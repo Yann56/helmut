@@ -1,0 +1,54 @@
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+</head>
+	<body>
+		<div class="main clearfix">
+			<form action="action.php" method="POST" id="nl-form" class="nl-form">
+				Je cherche  
+				<select name="style">
+					<option value="citadine" selected>une citadine</option>
+					<option value="sportive">une sportive</option>
+					<option value="anglaise">la classe anglaise</option>
+					<option value="italienne">une belle italienne</option>
+					<option value="allemande">une fougueuse allemande</option>
+				</select>
+				<br /> près de
+				<input type="text" value="" placeholder="Paris" data-subline="Par exemple: <em>Nantes</em> or <em>Bordeaux</em>"/>
+				
+				entre 
+				<select name="prixmin">
+					<option value="6000" selected>6 000€</option>
+				 	<option value="8000">8 000€</option>
+				 	<option value="10000">10 000€</option>
+				 	<option value="15000">15 000€</option>
+				</select>
+				et<br />
+				<select name="prixmax">
+					<option value="16000" selected>16 000€</option>
+				 	<option value="18000">18 000€</option>
+				 	<option value="20000">20 000€</option>
+				 	<option value="30000">35 000€</option>
+				</select>
+				et max
+				<select name="kms">
+					<option value="50000" selected>50 000</option>
+					<option value="100000">100 000</option>
+					<option value="150000">150 000</option>
+					<option value="200000">200 000</option>
+				</select>
+				 kms
+				<div class="nl-submit-wrap">
+					<button class="nl-submit" type="submit">Trouver ma voiture</button>
+				</div>
+				<div class="nl-overlay"></div>
+			</form>
+		</div>
+		<script src="js/nlform.js"></script>
+		<script>
+			var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+		</script>
+	</body>
+</html>
