@@ -476,7 +476,7 @@ a:hover, a:focus {
     text-align: center;
     font-size:30px;
     font-weight: 300;
-    color: #A95108; 
+    color: #565a5c; 
 }
 
 
@@ -491,44 +491,41 @@ Buttons
 ========================================================================== */
 .use-btn {
     display: inline-block;
-    margin-top: 20px;
     margin-bottom: 15px;
-    padding: 15px 25px;
-    border-radius: 2px;
+    padding: 13px 25px;
+    border-radius: 3px;
     background-color: #F08F3F;
-    border-bottom: 4px solid #DA6E15;
     color: #fff;
     font-size: 16px;
-    text-shadow: 0 1px 0.5px rgba(0,0,0,.3);
 }
+
 .use-btn:hover, .use-btn:focus {
     background-color: #DA6E15;
     color: #fff;
     text-decoration: none;
 }
+
 .learn-btn {
     display: inline-block;
-    padding: 15px 25px;
-    background: rgba(255,255,255,0.2);
-    border: 1px solid #9E9E9E;
-    border-radius: 2px;
+    padding: 10px 15px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 3px;
     color: #fff;
     font-size: 12px;
 }
+
 .download-btn {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 7px 10px;
     background-color: #EB603A;
-    box-shadow: 0px 0px 2px #181818;
     border-radius: 2px;
     color: #fff;
     font-size: 12px;
-    text-shadow: 0 1px 0.5px rgba(0,0,0,.3);
-
 }
+
 .learn-btn:hover, .download-btn:hover, .learn-btn:focus, .download-btn:focus {
-    color: #333333;
-    background: #fff;
+    color: #fff;
+    background: rgba(0,0,0,0.6);
     text-decoration: none;
 }
 .read-more-btn {
@@ -550,7 +547,7 @@ Buttons
 .shuffle-btn{
     display: inline-block;
     margin: 50px 8px 8px 0;
-    padding: 15px 20px;
+    padding: 13px 25px;
     border-radius: 3px;
     background-color: transparent;
     border: 1px solid #fff;
@@ -685,18 +682,39 @@ Hero
 .hero {
     position: relative;
     padding: 30px 0 60px 0;
-    min-height: 700px;
-    background: url('../img/vintage2.jpg') no-repeat center center;
+    min-height: 600px;
+    background: url('../img/carbackground.jpg') no-repeat center center;
     background-size: 100%;
-    color: #fff;
-    text-shadow: 0 1px 1px rgba(0,0,0,.5);
-
+    color: #fff;   
 }
+
+.layer {
+    background-color: rgba(48, 48, 48, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+} 
+
+.header{
+    margin: 10px 45px;
+}
+
+
 .hero h1 {
-    margin: 170px 0 45px 0;
-    font-weight: 400;
+    margin: 130px 0 20px 0;
+    text-transform: uppercase;
+    font-weight: 600;
     font-size:40px;
 }
+
+.hero h2 {
+    font-weight: 400;
+    color:white;
+    font-size: 18px;
+}
+
 .hero h1 span {
     display: inline-block;
     color: #a1a9b0;
@@ -772,7 +790,7 @@ section.explain i {
 
 section.explain {
     padding: 80px 100px;
-    background-color: #F4B86A;
+    background-color: #edefed;
 }
 section.explain a {
     color: #fff;
@@ -784,7 +802,7 @@ section.explain a:hover, section.video a:focus {
     text-shadow: 0 1px 0.5px rgba(0,0,0,.3);
 }
 section.explain a:hover i, section.video a:focus i {
-    color: #73d0da
+    color: #73d0da;
 }
 
 section.explain span{
@@ -833,7 +851,6 @@ section.random{
 }
 
 .sentence{
-    margin-top:60px;
     vertical-align: center;
     color: white;
     font-size:30px;
@@ -850,7 +867,7 @@ section.random{
 benefits
 ========================================================================== */
 section.benefits {
-    background: #EB603A;
+    background:#F4B86A;
     padding: 120px 200px;
 }
 
@@ -860,14 +877,14 @@ section.benefits {
     color:#fff;
 }
 .benefits p{
-    margin-top:30px;
+    padding-top:30px;
     color:#fff;
     line-height: 1.4em;
     text-align: justify;
 }
 
 .image{ 
-    margin-left: 100px;
+    padding-left: 100px;
     width: 540px;
     height: 360px;
     background: url('../img/choix.png');
@@ -879,19 +896,19 @@ section.benefits {
 benefits2
 ========================================================================== */
 section.benefits2 {
-    background: #B72F29;
+    background: #edefed;
     padding: 120px 200px;
 }
 
 .benefits2 span{
     font-size: 30px;
     font-weight: 300;
-    color:#fff;
+    color:#565a5c;
 }
 .benefits2 p{
     margin-right: 150px;
     margin-top:30px;
-    color:#fff;
+    color:#565a5c;
     line-height: 1.4em;
     text-align: justify;
 }

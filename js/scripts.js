@@ -108,12 +108,12 @@ $('.shuffle-btn').click(function(){
 if (count>4) { count=0; };
 
 sentence=[
-			["une berline","à Paris","20.000 €","31.000 €","55.000 kms"],
-			["un break","à Toulouse","22.500 €","30.100 €","74.000 kms"],
-			["une coupé","à Nantes","20.000 €","31.000 €","23.000 kms"],
-			["un 4x4","à Bordeaux","20.000 €","31.000 €","80.000 kms"],
-			["un cabriolet","dans toute la France","20.000 €","31.000 €","70.000 kms"],
-			["un monospace","à Lyon","20.000 €","31.000 €","43.000 kms"],
+			["une berline","Paris","20.000 €","31.000 €","55.000 kms"],
+			["un break","Toulouse","22.500 €","30.100 €","74.000 kms"],
+			["une coupé","Nantes","20.000 €","31.000 €","23.000 kms"],
+			["un 4x4","Bordeaux","20.000 €","31.000 €","80.000 kms"],
+			["un cabriolet","toute la France","20.000 €","31.000 €","70.000 kms"],
+			["un monospace","Lyon","20.000 €","31.000 €","43.000 kms"],
 		];
 
 	//var rands=Math.floor((Math.random() * 5) + 1);
