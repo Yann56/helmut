@@ -701,6 +701,18 @@ Hero
     margin: 10px 45px;
 }
 
+.connect{
+    text-decoration: none;
+    color:white;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+.connect:hover{
+    text-decoration: none;
+    color:white;
+    padding-right: 15px;
+}
 
 .hero h1 {
     margin: 130px 0 20px 0;
@@ -789,7 +801,7 @@ section.explain i {
 }
 
 section.explain {
-    padding: 80px 100px;
+    padding: 60px 100px;
     background-color: #edefed;
 }
 section.explain a {
@@ -847,7 +859,7 @@ random
 
 section.random{
     background: #313131;
-    padding: 80px 100px;
+    padding: 60px 100px;
 }
 
 .sentence{
@@ -868,7 +880,7 @@ benefits
 ========================================================================== */
 section.benefits {
     background:#F4B86A;
-    padding: 120px 200px;
+    padding: 60px 200px;
 }
 
 .benefits span{
